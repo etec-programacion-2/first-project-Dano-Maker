@@ -11,5 +11,10 @@ class App {
 }
 
 fun main() {
-    println(App().greeting)
+    val nombre: String= "Dano"
+    var edad= 16
+    val esActivo = true
+    println("Hola $nombre")
+    println("Tengo ${edad + 1} años el próximo año")
+
 }
